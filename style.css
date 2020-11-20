@@ -268,3 +268,88 @@ z-index:-1;
 
 
 }
+
+/* about me */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  perspective: 1000px;
+} */
+.container3 {
+margin-left: 30%;
+margin-right: 30%;
+perspective: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.card {
+  transform-style: preserve-3d;
+  min-height: 70vh;
+  width: 35rem;
+  border-radius: 30px;
+  padding: 0rem 5rem;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+  /* background-image: radial-gradient( rgba(255, 255, 255, 1), rgba(255, 218, 119, 0.75),rgba(255, 200, 92, 0.76)); */
+
+}
+
+.sneaker {
+  min-height: 35vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sneaker img {
+
+  position: relative;
+width:250px;
+  z-index: 2;
+  transition: all 0.75s ease-out;
+
+
+}
+.circle {
+  width: 17rem;
+  height: 17rem;
+  background: linear-gradient(
+    to right,
+    rgba(255,215,0,0.75),
+ rgba(165,42,42,0.75)
+  );
+  position: absolute;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.info h1 {
+  font-size: 3rem;
+  transition: all 0.75s ease-out;
+}
+.info h3 {
+  font-size: 1.3rem;
+  padding: 1rem 0rem;
+  color: #585858;
+font-family: 'EB Garamond', serif;
+text-align: center;
+  transition: all 0.75s ease-out;
+}
+.title{
+  font-family: 'Big Shoulders Stencil Display', cursive;
+  text-align: center;
+
+}
+.container3{
+  padding: 2% 0;
+}

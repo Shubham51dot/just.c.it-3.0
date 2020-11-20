@@ -2,6 +2,7 @@
 
 <head>
   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>just.c.it</title>
   <link rel="stylesheet" href="style.css" />
   <!-- favicon link -->
@@ -17,11 +18,15 @@
   />
   <!-- google fonts link -->
   <link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Boogaloo&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -51,7 +56,7 @@
           <ul class="navbar-nav ml-auto ">
 
             <li class="nav-item navs">
-              <a class="dropbtnrest" style="text-decoration:none;" href="#">About me</a>
+              <a class="dropbtnrest" style="text-decoration:none;" href="#aboutme">About me</a>
             </li>
 
             <li class="navs">
@@ -173,8 +178,25 @@
                 </section>
     </div>
     <!-- mid content ends -->
+<!-- about me content -->
+<div id="aboutme" class="aboutme" >
 
-    <!-- about us starts -->
+
+<div class="container3" >
+      <div class="card" id="" style="border-radius: 60px;">
+          <div class="sneaker">
+              <div class="circle"></div>
+              <img src="assets/me.png" alt="adidas">
+          </div>
+          <div class="info">
+              <h1 class="title">Shubham Pawar</h1>
+              <!-- <h3 class="profession">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's</h3> -->
+              <h3 class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's  </h3>
+          </div>
+      </div>
+  </div>
+  </div>
+
 <div class="cursor">
 
 
@@ -190,7 +212,37 @@
 <!-- index  file -->
 <script src="index.js"></script>
 
-
+<!-- vantas scripts -->
+<script  src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+<script  src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+<script>
+VANTA.NET({
+  el: "#aboutme",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0xff973f,
+  backgroundColor: 0x0
+})
+</script>
+<script>
+VANTA.NET({
+  el: "#cardo",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0xff973f,
+  backgroundColor: 0x0
+})
+</script>
   <!-- bootstrap scripts -->
 
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
