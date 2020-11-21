@@ -27,6 +27,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@600&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Asap&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -71,7 +73,7 @@
                 </div>
             </li>
             <li class="nav-item navs">
-              <a class="dropbtnrest" style="text-decoration:none;" href="#">Contact</a>
+              <a class="dropbtnrest" style="text-decoration:none;" href="#contactus">Contact</a>
             </li>
           </ul>
         </div>
@@ -177,6 +179,10 @@
                 </div>
                 </section>
     </div>
+    <div class="cursor">
+
+
+    </div>
     <!-- mid content ends -->
 <!-- about me content -->
 <div id="aboutme" class="aboutme" >
@@ -186,7 +192,7 @@
       <div class="card" id="" style="border-radius: 60px;">
           <div class="sneaker">
               <div class="circle"></div>
-              <img src="me.png" alt="adidas">
+              <img src="assets/me.png" alt="adidas">
           </div>
           <div class="info">
               <h1 class="title">Shubham Pawar</h1>
@@ -196,9 +202,59 @@
       </div>
   </div>
   </div>
+  <!-- conatct us -->
+  <div id="contactus"class="container-fluid cool">
+        <h1 class="contact">Contact</h1>
 
-<div class="cursor">
+        <hr
+          style="margin-top:5px;
+              margin-bottom:5px;"
+        />
+        <a href="https://www.instagram.com/just.c.it/"
+          ><i class="fab fa-instagram app"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/shubham-pawar-a25613184/"
+          ><i class="fab fa-linkedin app"></i
+        ></a>
+        <a href="https://www.facebook.com/justcit-102406937818652"
+          ><i class="fab fa-facebook app"></i
+        ></a>
+        <a href="https://www.tumblr.com/blog/justcit"
+          ><i class="fab fa-tumblr-square app"></i
+        ></a>
+        <a href="https://www.behance.net/shubhampawar3"
+          ><i class="fab fa-behance app"></i
+        ></a>
+        <p style="margin-bottom: 0px;" class="last-text">© just.c.it</p>
+      </div>
 
+      <!-- stcky buttons -->
+
+      <div class="sbuttons">
+
+
+        <a href="https://www.facebook.com/justcit-102406937818652" target="_blank" class="sbutton fb" tooltip="Facebook"><i class="fab fa-facebook-f"></i></a>
+
+
+        <a href="https://www.linkedin.com/in/shubham-pawar-a25613184/" target="_blank" class="sbutton li" tooltip="Linkedin"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://www.instagram.com/just.c.it/" target="_blank" class="sbutton ins" tooltip="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://github.com/Shubham51dot" target="_blank" class="sbutton git" tooltip="Github"><i class="fab fa-github"></i></a>
+            <a href="#contactus" target="_blank" class="sbutton email" tooltip="gmail" aria-hidden="false"><i class="fas fa-envelope" ></i></a>
+
+
+
+
+
+
+
+
+        <a target="_blank" class="sbutton mainsbutton" tooltip="Share"><i class="fas fa-share-alt"></i></a>
+
+      </div>
+<!-- loading -->
+<div class="loader-wrapper">
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets3.lottiefiles.com/temp/lf20_sxj3pp.json"  background="TRANSPARENT"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
 
 </div>
 
@@ -207,10 +263,14 @@
 
 
 
+
 <!-- jquery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 <!-- index  file -->
 <script src="index.js"></script>
+<!-- font awesome -->
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
 <!-- vantas scripts -->
 <script  src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
@@ -229,20 +289,7 @@ VANTA.NET({
   backgroundColor: 0x0
 })
 </script>
-<script>
-VANTA.NET({
-  el: "#cardo",
-  mouseControls: true,
-  touchControls: true,
-  gyroControls: false,
-  minHeight: 200.00,
-  minWidth: 200.00,
-  scale: 1.00,
-  scaleMobile: 1.00,
-  color: 0xff973f,
-  backgroundColor: 0x0
-})
-</script>
+
   <!-- bootstrap scripts -->
 
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>

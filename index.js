@@ -122,3 +122,7 @@ container3.addEventListener("mouseleave", (e) => {
 
 
 });
+// loader
+$(window).on("load",function(){
+     $(".loader-wrapper").fadeOut("slow");
+});
