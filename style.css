@@ -574,4 +574,7 @@ z-index: 9999;
 .info h3{
   font-size: 1.2rem;
 }
+  .carousel-inner{
+    height: 17rem;
+}
 }
