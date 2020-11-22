@@ -198,15 +198,20 @@ z-index:-1;
   padding-left:14%;
   padding-right:14%;
   margin-top: 3%;
+
+
 }
+
 .the{
   width: 100%;
   height:auto;
   opacity: 10%;
   z-index: -3;
   position: absolute;
-
 }
+
+
+
 .portrait{
   font-family: 'Lobster', cursive;
 }
@@ -541,4 +546,32 @@ z-index: 1000;
   justify-content: center;
   align-items: center;
 z-index: 9999;
+}
+
+/* media query */
+@media only screen and (max-width: 600px) {
+  .optimizing{
+    height: 17rem;
+  }
+  .container3{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .circle{
+    width:14rem;
+    height:14rem;
+  }
+  .sneaker img{
+    width:13rem;
+  }
+.info h1{
+  font-size: 2.6rem;
+}
+.card{
+  padding-left: 2rem;
+  padding-right:2rem;
+}
+.info h3{
+  font-size: 1.2rem;
+}
 }
